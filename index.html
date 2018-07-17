@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Modal</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">	
+</head>
+
+<body>
+	<button id="btn" class="blue-button">Click to get modal</button>
+	<div id="hide-container" class="hidden">
+		<div id="modalContainer" >
+			<div id="modalWindow">
+				<div id="header"> 
+				 	<div id="title">Modal title</div>
+					<img src="images/close.png" id="close-image" class="close-modal"></img>
+				</div>
+				<div id="content"> Modal content will be here </div>
+				<div id="footer">
+					<button id="closeBtn" class="footer-btn red-button close-modal">Close</button>
+					<button id="saveChange " class="footer-btn blue-button">Save Changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="jquery-3.3.1.min.js"> </script>
+	<script src="index.js"> </script>
+</body>
+</html>
